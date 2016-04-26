@@ -3,7 +3,11 @@
  */
 (function() {
     'use strict';
-    angular.module('USBus', [ 'angular-spinner'])
+    angular.module('USBus', [
+
+            'ngMaterial',
+            'ngRoute'
+        ])
         .run(function($rootScope) {
 
         });

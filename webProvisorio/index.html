@@ -5,23 +5,53 @@
     <title>USBus</title>
 
     <!-- STYLES -->
+    <!-- Angular Material CSS -->
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css"/>
+
+
+    <!-- Angular Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Custom css files -->
     <link rel="stylesheet" type="text/css" href="css/usbus.css"/>
     <!-- STYLES -->
 
     <!-- SCRIPTS -->
-    <script src="js/usbus.js"></script>
+    <script src="node_modules/angular/angular.js"/>
+
+    <script src="node_modules/angular-route/angular-route.min.js"/>
+    <script src="node_modules/angular-material/angular-material.min.js"/>
+    <script src="js/USBus.js"></script>
+
+
+
 
     <!-- SCRIPTS -->
+    <link rel="SHORTCUT ICON" href="img/USBus.png" type="image/x-icon" />
 
 </head>
-<body>
+<body >
+    <img src="img/USBus.png" class="logo">
+    <div style="clear: both"></div>
+
+    <hgroup>
+        <h1>USBus</h1>
+        <h3>Esclavos de tu eficiencia</h3>
+    </hgroup>
 
 
-<img src="img/USBus.png" class="logo">
-    <h1 class="title">USBus</h1>
-    <h5 class="subtitle">Esclavos de tu eficiencia</h5>
-
-
+    <form>
+        <div class="group">
+            <input type="text"><span class="highlight"></span><span class="bar"></span>
+            <label>Name</label>
+        </div>
+        <div class="group">
+            <input type="email"><span class="highlight"></span><span class="bar"></span>
+            <label>Email</label>
+        </div>
+        <button type="button" class="button buttonBlue">Subscribe
+            <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+        </button>
+    </form>
 
 </body>
 </html>
