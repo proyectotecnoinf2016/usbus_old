@@ -3,7 +3,7 @@
  */
 (function() {
     'use strict';
-    angular.module('USBus', [ ])
+    angular.module('USBus', [ 'angular-spinner'])
         .run(function($rootScope) {
 
         });

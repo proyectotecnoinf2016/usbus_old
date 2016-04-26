@@ -1,0 +1,16 @@
+.title{
+    color: darkred;
+    font-weight: bold;
+    text-shadow: greenyellow;
+
+}
+.subtitle{
+    color: greenyellow;
+    font-weight: bold;
+    text-shadow: grey;
+
+}
+
+.logo {
+    width: 150px;
+}
