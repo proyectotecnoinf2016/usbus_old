@@ -4,11 +4,10 @@
 (function() {
     'use strict';
     angular.module('USBus', [
-
-            'ngMaterial',
             'ngRoute'
         ])
         .run(function($rootScope) {
 
         });
 })();
+
